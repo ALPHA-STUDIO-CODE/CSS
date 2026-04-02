@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+
+#helvetica {
+  font-family: Helvetica, sans-serif;
+}
+
+#arial {
+  font-family: Arial, sans-serif;
+}
+
+#serif {
+  font-family: serif;
+}
+
+#sans-serif {
+  font-family: sans-serif;
+}
+
+.pirata-one-regular {
+  font-family: cursive;
+}
+#cursive {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#monospace {
+  font-family: monospace;
+}
+
+.adamina-regular {
+  font-family: fantasy;
+}
+
+#fantasy {
+  font-family: "Adamina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
