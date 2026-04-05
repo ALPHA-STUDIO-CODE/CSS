@@ -1,0 +1,40 @@
+p {
+  color: white;
+}
+#div1 .red {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+#div1 .green {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+#div1 .blue {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#div2 .red {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+#div2 .green {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+#div2 .blue {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
