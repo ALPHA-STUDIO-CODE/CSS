@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+div {
+  display: inline-block;
+  background-color: blueviolet;
+  margin: 5px;
+}
+
+.one {
+  width: 25%;
+}
+
+.two {
+  width: 25%;
+}
+
+.three {
+  width: 40%;
+}

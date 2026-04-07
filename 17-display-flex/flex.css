@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+p {
+  background-color: darkseagreen;
+}
