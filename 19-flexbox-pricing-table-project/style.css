@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sono", sans-serif;
+}
+
+
+h1 {
+  margin: 2%;
+  text-align: center;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.pricing-plan {
+  max-width: 450px;
+  width: 50%;
+  height: 400px;
+  padding: 50px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.plan-price {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.plan-features {
+  list-style-type: none;
+  font-size: small;
+}
+
+.plan-features li {
+  margin-bottom: 20px;
+}
+
+.plan-button {
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* For devices above the width of 768px (medium) */
+@media screen and (min-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .pricing-container {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    height: auto;
+  }
+
+  .pricing-plan {
+    max-width: calc(100vw/3.5);
+    padding: 2%;
+    max-height: 65vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
+  .plan-title {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+
+  .plan-price {
+    font-size: clamp(1.75rem, 3.5vw, 2.2rem);
+  }
+
+  .plan-features {
+    font-size: medium;
+  }
+
+}
